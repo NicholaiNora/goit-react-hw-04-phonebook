@@ -1,0 +1,18 @@
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filterInput {
+    width: 150px;
+    border: 1px solid rgb(167, 167, 167);
+    outline: none;
+    border-radius: 3px;
+}
+
+.filterInput:focus {
+    border: 1px solid rgb(139,180,232);
+    box-shadow: rgb(212,230,252) 0 0 0px 2px, rgb(148,192,249) 0 0 1px 1px, inset rgb(218,233,252) 0 0 0 1px;
+    outline: none;
+}

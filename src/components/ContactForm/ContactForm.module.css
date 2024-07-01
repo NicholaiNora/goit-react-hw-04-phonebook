@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #2a2a2a;
+  gap: 20px;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formInput {
+  width: 150px;
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 3px;
+}
+
+.formInput:focus {
+  border: 1px solid rgb(139, 180, 232);
+  box-shadow: rgb(212, 230, 252) 0 0 0px 2px, rgb(148, 192, 249) 0 0 1px 1px,
+    inset rgb(218, 233, 252) 0 0 0 1px;
+  outline: none;
+}
+
+.formButton {
+  font-size: 11px;
+  text-align: center;
+  width: 75px;
+  padding: 3px;
+  background-color: white;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formButton:active {
+  background-color: rgb(86, 146, 243);
+  box-shadow: rgb(0 0 0 / 20%) 0px -7px 3px -2px inset,
+    rgb(0 0 0 / 14%) 0px -5px 4px 0px inset,
+    rgb(0 0 0 / 12%) 0px -3px 8px 0px inset;
+  border: none;
+}

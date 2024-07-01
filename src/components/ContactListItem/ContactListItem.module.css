@@ -1,0 +1,28 @@
+.contactItem {
+  display: block;
+}
+
+.contactItemSpan {
+  margin-right: 10px;
+}
+
+.contactItemButton {
+  font-size: 10px;
+  text-align: center;
+  width: 40px;
+  background-color: white;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1px;
+  position: relative;
+  top: -2px;
+}
+
+.contactItemButton:active {
+  background-color: rgb(86, 146, 243);
+  box-shadow: rgb(0 0 0 / 20%) 0px -7px 3px -2px inset,
+    rgb(0 0 0 / 14%) 0px -5px 4px 0px inset,
+    rgb(0 0 0 / 12%) 0px -3px 8px 0px inset;
+  border: none;
+}
